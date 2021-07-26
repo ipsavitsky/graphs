@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "matrix/denseMatrix.hpp"
+#include "src/graph/matrix/denseMatrix.hpp"
 
 int main() {
     try {

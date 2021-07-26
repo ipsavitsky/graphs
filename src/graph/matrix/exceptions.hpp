@@ -3,7 +3,7 @@
 
 #include <string>
 
-#include "../matrix/Matrix.hpp"
+#include "Matrix.hpp"
 
 namespace matr_excp {
 

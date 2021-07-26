@@ -1,5 +1,6 @@
-#include "../matrix/denseMatrix.hpp"
-#include "../matrix/sparseMatrix.hpp"
+#include "matrix/denseMatrix.hpp"
+#include "matrix/sparseMatrix.hpp"
+#include "matrix/Matrix.hpp"
 
 class Graph {
    private:

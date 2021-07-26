@@ -5,7 +5,7 @@
 #include <iostream>
 #include <limits>
 
-#include "../exceptions/exceptions.hpp"
+#include "exceptions.hpp"
 
 DenseMatrix::DenseMatrix(size_t x, size_t y) : Matrix(x, y){
     data = new double[x * y];  // NOLINT

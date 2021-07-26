@@ -2,10 +2,10 @@
 
 #include <cfloat>
 
-#include "../exceptions/exceptions.hpp"
-#include "../graph/graph.hpp"
-#include "../matrix/denseMatrix.hpp"
-#include "../matrix/sparseMatrix.hpp"
+#include "src/exceptions/exceptions.hpp"
+#include "src/graph/graph.hpp"
+#include "src/matrix/denseMatrix.hpp"
+#include "src/matrix/sparseMatrix.hpp"
 
 class SparseMatrixTest : public CxxTest::TestSuite {
    public:

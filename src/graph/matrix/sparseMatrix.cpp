@@ -5,7 +5,7 @@
 #include <cstring>
 #include <limits>
 
-#include "../exceptions/exceptions.hpp"
+#include "exceptions.hpp"
 
 SparseMatrix::SparseMatrix(size_t x, size_t y) : Matrix(x, y){
     // x_size = x;
