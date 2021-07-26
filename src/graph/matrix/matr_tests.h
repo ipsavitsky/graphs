@@ -3,13 +3,14 @@
 #include <cfloat>
 
 #include "src/exceptions/exceptions.hpp"
-#include "src/graph/graph.hpp"
+#include "../graph.hpp"
 #include "src/matrix/denseMatrix.hpp"
 #include "src/matrix/sparseMatrix.hpp"
 
 class SparseMatrixTest : public CxxTest::TestSuite {
    public:
     void testMoveSemantics(void) {
+        std::cout << "a test is run" << std::endl;
         SparseMatrix a(2, 2);
         a.set(0, 0, 15);
         SparseMatrix b(std::move(a));
