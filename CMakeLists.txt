@@ -4,6 +4,7 @@ project(graphs_demo)
 set(CMAKE_CXX_STANDARD 17)
 
 add_subdirectory(src/graph)
+add_subdirectory(googletest)
 
 add_executable(graphs_demo main.cpp)
 

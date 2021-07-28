@@ -5,9 +5,7 @@
 class Graph {
    private:
     Matrix& adjacency;
-    // auto BronKerbosch(std::vector<size_t> R, std::vector<size_t> P, std::vector<size_t> X) -> void;
-    auto floydWarshall () -> void;
-   public:
+public:
     Graph() = delete;
     explicit Graph(Matrix&);
     Graph(const Graph&) = default;
